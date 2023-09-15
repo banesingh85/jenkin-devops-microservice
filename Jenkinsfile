@@ -20,7 +20,6 @@ pipeline {
 			}
 		}
 	} 
-	
 	Post {
 		always {
 			echo 'IM Awsome. I Run always'
