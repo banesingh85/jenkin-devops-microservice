@@ -6,6 +6,6 @@ node {
 		echo "Test"
 	}
 	tage('Integration Test') {
-		echo "Test"
+		echo "Integration Test"
 	}
 }
