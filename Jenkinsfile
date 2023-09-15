@@ -1,9 +1,10 @@
 pipeline {
-    agent { docker { image 'node:13.8' } }
-    stages {
+    //agent { docker { image 'node:13.8' } }
+    agent any
+	stages {
         stage('Build') {
             steps {
-                sh 'node --version'
+              //  sh 'node --version'
                 echo "Build"
             }
         }
